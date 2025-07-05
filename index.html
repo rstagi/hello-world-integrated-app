@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="greeting">Hello, World!</h1>
+        <p class="subtitle">Welcome to our integrated web application</p>
+        <button id="clickBtn" class="btn">Click me!</button>
+        <div id="status" class="status">
+            <h3>Service Status:</h3>
+            <ul>
+                <li>Frontend: <span class="status-ok">✓ Active</span></li>
+                <li>Database: <span id="db-status">⏳ Connecting...</span></li>
+                <li>Backend: <span id="backend-status">⏳ Connecting...</span></li>
+                <li>Monitoring: <span id="monitoring-status">⏳ Connecting...</span></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
